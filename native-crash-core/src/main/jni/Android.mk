@@ -1,5 +1,5 @@
 ROOT_PATH := $(call my-dir)
-include $(ROOT_PATH)/breakpad/android/google_breakpad/Android.mk
+include $(ROOT_PATH)/third-breakpad/android/google_breakpad/Android.mk
 LOCAL_PATH := $(ROOT_PATH)
 include $(CLEAR_VARS)
 LOCAL_MODULE := native-crash
