@@ -1,0 +1,1 @@
+include ':app', ':native-crash-core', ':java-crash-core', ':full-crash-core', ':crash-gradle-plugin'
