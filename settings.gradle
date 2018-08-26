@@ -1,1 +1,1 @@
-include ':app', ':native-crash-core', ':java-crash-core', ':full-crash-core', ':crash-gradle-plugin'
+include ':test-demo-app', ':native-crash-core', ':java-crash-core', ':android-crash-core', ':crash-gradle-plugin', ':base-crash-core'

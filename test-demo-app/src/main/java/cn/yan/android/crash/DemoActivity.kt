@@ -4,7 +4,6 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import android.support.v4.app.ActivityCompat
 import android.support.v7.app.AppCompatActivity
-import cn.yan.crash.core.NativeHandler
 
 class DemoActivity : AppCompatActivity() {
 
@@ -19,7 +18,7 @@ class DemoActivity : AppCompatActivity() {
             if (grant != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(this, arrayOf(it), 1)
             } else {
-                NativeHandler().init(externalCacheDir.absolutePath)
+                //NativeHandler().init(externalCacheDir.absolutePath)
             }
         }
     }

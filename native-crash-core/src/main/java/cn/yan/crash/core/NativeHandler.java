@@ -1,6 +1,6 @@
 package cn.yan.crash.core;
 
-public class NativeHandler {
+final class NativeHandler {
     static {
         System.loadLibrary("native-crash");
     }

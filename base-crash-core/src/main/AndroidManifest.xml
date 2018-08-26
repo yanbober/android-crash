@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.yan.base.crash.core">
+    <application>
+        <service android:name=".CrashUpload$WorkService"
+            android:process=":crash"
+            android:exported="false"></service>
+    </application>
+</manifest>
