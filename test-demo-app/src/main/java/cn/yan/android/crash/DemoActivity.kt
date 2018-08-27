@@ -4,6 +4,7 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import android.support.v4.app.ActivityCompat
 import android.support.v7.app.AppCompatActivity
+import android.widget.Button
 import cn.yan.crash.core.NativeCrash
 
 class DemoActivity : AppCompatActivity() {
@@ -18,9 +19,11 @@ class DemoActivity : AppCompatActivity() {
             val grant = ActivityCompat.checkSelfPermission(this, it)
             if (grant != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(this, arrayOf(it), 1)
-            } else {
-                NativeCrash.init(this.applicationContext)
             }
+        }
+
+        findViewById<Button>(R.id.btn).setOnClickListener {
+            NativeCrash.crash()
         }
     }
 }

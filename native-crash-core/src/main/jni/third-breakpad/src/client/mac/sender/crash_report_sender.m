@@ -683,7 +683,7 @@ shouldChangeTextInRange:(NSRange)affectedCharRange
 //=============================================================================
 int main(int argc, const char *argv[]) {
   NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-#if DEBUG
+#if LOGCAT_DEBUG
   // Log to stderr in debug builds.
   [GTMLogger setSharedLogger:[GTMLogger standardLoggerWithStderr]];
 #endif

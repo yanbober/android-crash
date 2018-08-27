@@ -22,7 +22,7 @@ final public class CrashDump {
     public static File getAssignedDir(@NonNull Context context, @CrashType String type) {
         File file = context.getExternalCacheDir();
         if (file != null && file.exists()) {
-            String typeDir = file.getPath() + File.separator + DIR_CRASH + type;
+            String typeDir = file.getPath() + File.separator + DIR_CRASH + File.separator + type;
             file = new File(typeDir);
             if (!file.exists()) {
                 file.mkdirs();

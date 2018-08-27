@@ -7,13 +7,12 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-/*
- * Class:     cn_yan_crash_core_NativeHandler
- * Method:    init
- * Signature: (Ljava/lang/String;)V
- */
+
 JNIEXPORT void JNICALL Java_cn_yan_crash_core_NativeHandler_init
   (JNIEnv *, jobject, jstring);
+
+JNIEXPORT void JNICALL Java_cn_yan_crash_core_NativeHandler_crash
+        (JNIEnv*, jobject);
 
 #ifdef __cplusplus
 }

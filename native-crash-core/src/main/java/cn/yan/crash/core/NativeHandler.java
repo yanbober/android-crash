@@ -6,4 +6,6 @@ final class NativeHandler {
     }
 
     public static native void init(String path);
+
+    public static native void crash();
 }

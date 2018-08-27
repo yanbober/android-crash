@@ -335,7 +335,7 @@
 
 // If we're not in a debug build, remove the GTMLoggerDebug statements. This
 // makes calls to GTMLoggerDebug "compile out" of Release builds
-#ifndef DEBUG
+#ifndef LOGCAT_DEBUG
 #undef GTMLoggerDebug
 #define GTMLoggerDebug(...) do {} while(0)
 #endif
