@@ -12,5 +12,5 @@
 |native-crash-core|`C/C++` Native 层崩溃捕获处理，可单独使用。|
 |java-crash-core|`java/kotlin` JVM 语言崩溃捕获处理，可单独使用。|
 |android-crash-core|`C/C++` Native、`java/kotlin` JVM 语言崩溃统一处理。|
-|crash-gradle-plugin| Native 层动态 so 库 obj 自动归档构建插件，Java mapping 后续添加支持...|
+
 |test-demo-app| 测试 App，用来演示相关功能接入。|
