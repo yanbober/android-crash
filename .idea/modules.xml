@@ -3,11 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-crash.iml" filepath="$PROJECT_DIR$/android-crash.iml" />
+      <module fileurl="file://D:\android-crash\android-crash.iml" filepath="D:\android-crash\android-crash.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\android-crash\app\app.iml" filepath="D:\android-crash\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/crash-gradle-plugin/crash-gradle-plugin.iml" filepath="$PROJECT_DIR$/crash-gradle-plugin/crash-gradle-plugin.iml" />
+      <module fileurl="file://D:\android-crash\crash-gradle-plugin\crash-gradle-plugin.iml" filepath="D:\android-crash\crash-gradle-plugin\crash-gradle-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/full-crash-core/full-crash-core.iml" filepath="$PROJECT_DIR$/full-crash-core/full-crash-core.iml" />
+      <module fileurl="file://D:\android-crash\full-crash-core\full-crash-core.iml" filepath="D:\android-crash\full-crash-core\full-crash-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-crash-core/java-crash-core.iml" filepath="$PROJECT_DIR$/java-crash-core/java-crash-core.iml" />
+      <module fileurl="file://D:\android-crash\java-crash-core\java-crash-core.iml" filepath="D:\android-crash\java-crash-core\java-crash-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/native-crash-core/native-crash-core.iml" filepath="$PROJECT_DIR$/native-crash-core/native-crash-core.iml" />
+      <module fileurl="file://D:\android-crash\native-crash-core\native-crash-core.iml" filepath="D:\android-crash\native-crash-core\native-crash-core.iml" />
     </modules>
   </component>
 </project>
