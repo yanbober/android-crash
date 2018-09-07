@@ -38,7 +38,7 @@ namespace google_breakpad {
 extern "C" {
 
 int main(int argc, char *const argv[]) {
-#if DEBUG
+#if LOGCAT_DEBUG
   // Since we're launched on-demand, this is necessary to see debugging
   // output in the console window.
   freopen("/dev/console", "w", stdout);

@@ -3,7 +3,7 @@
 buildscript {
     ext.kotlin_version = '1.2.61'
     ext.kotlin_version = '1.2.50'
-    repositories {
+    repositories { maven { url './repo' }
         maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         google()
         jcenter()
@@ -14,6 +14,7 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        classpath 'cn.yan.crash.gradle:crash-gradle-plugin:1.0.0'
     }
 }
 

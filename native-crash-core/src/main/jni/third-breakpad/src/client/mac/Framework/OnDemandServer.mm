@@ -32,7 +32,7 @@
 #import "Breakpad.h"
 #include "common/mac/bootstrap_compat.h"
 
-#if DEBUG
+#if LOGCAT_DEBUG
   #define PRINT_MACH_RESULT(result_, message_) \
     printf(message_"%s (%d)\n", mach_error_string(result_), result_ );
 #if defined(MAC_OS_X_VERSION_10_5) && \
